@@ -1,0 +1,1 @@
+uid=0(root) gid=0(root) grupos=0(root),1000(desarrolladores),2101(diseno)
