@@ -1,0 +1,14 @@
+total 8
+drwxr-xr-x 2 root root            4096 may 15 04:48 .
+drwxr-xr-x 5 root root            4096 may 15 04:47 ..
+-rw-r--r-- 1 root desarrolladores    0 may 15 04:47 app.py
+-rw-r--r-- 1 root diseno             0 may 15 04:48 config.json
+total 8
+drwxr-xr-x 2 root diseno 4096 may 15 04:48 .
+drwxr-xr-x 5 root root   4096 may 15 04:47 ..
+-rw-r--r-- 1 root diseno    0 may 15 04:48 informe.txt
+/root/lab_chgrp/scripts/:
+total 8
+drwxr-xr-x 2 root desarrolladores 4096 may 15 04:48 .
+drwxr-xr-x 5 root root            4096 may 15 04:47 ..
+-rw-r--r-- 1 root desarrolladores    0 may 15 04:48 deploy.sh
