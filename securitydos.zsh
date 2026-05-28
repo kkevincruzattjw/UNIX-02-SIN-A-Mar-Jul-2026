@@ -16,3 +16,4 @@ touch ~/dentro_de_newgrp.txt      # Create a new file while active under the new
 ls -la ~/dentro_de_newgrp.txt     # Display the file's details to verify it belongs to the "desarrolladores" group
 mkdir -p ~/proyecto_dev/src       # Create the project directory structure recursively, including parent directories
 ls -la ~/                         # List all files and directories in the home folder with their ownership details
+echo "Grupo restaurado: $(id -gn)"  # Print a message showing the restored primary group name
