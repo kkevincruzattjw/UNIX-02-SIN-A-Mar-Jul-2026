@@ -17,3 +17,5 @@ ls -la ~/dentro_de_newgrp.txt     # Display the file's details to verify it belo
 mkdir -p ~/proyecto_dev/src       # Create the project directory structure recursively, including parent directories
 ls -la ~/                         # List all files and directories in the home folder with their ownership details
 echo "Grupo restaurado: $(id -gn)"  # Print a message showing the restored primary group name
+git add ~/dentro_de_newgrp.txt ~/antes_de_newgrp.txt  # Add the new files to the staging area / Añade los nuevos archivos a la zona de preparación
+git commit -m "Add script testing file group inheritance"  # Commit the changes with a message / Registra el commit con un mensaje descriptivo
