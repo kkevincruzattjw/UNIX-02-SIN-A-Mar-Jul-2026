@@ -10,3 +10,5 @@ apt-get update && apt-get install -y util-linux-extra login passwd  # Update pac
 newgrp desarrolladores                                              # Switch the current shell session's primary group to "desarrolladores"
 groupadd desarrolladores                                            # Create a new user group named "desarrolladores" in the system
 cat /etc/group                                                      # Display the list of all existing user groups on the system
+id -gn                                     # Retrieve and display only the name of the current active group
+echo "Nuevo grupo activo: $(id -gn)"       # Print a message showing the newly activated group name
