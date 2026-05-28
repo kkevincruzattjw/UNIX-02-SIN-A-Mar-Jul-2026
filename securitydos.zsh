@@ -19,3 +19,9 @@ ls -la ~/                         # List all files and directories in the home f
 echo "Grupo restaurado: $(id -gn)"  # Print a message showing the restored primary group name
 git add ~/dentro_de_newgrp.txt ~/antes_de_newgrp.txt  # Add the new files to the staging area / Añade los nuevos archivos a la zona de preparación
 git commit -m "Add script testing file group inheritance"  # Commit the changes with a message / Registra el commit con un mensaje descriptivo
+# 5. Group Password and User Switching Solution
+gpasswd grupo_restringido            # Set a password for "grupo_restringido"
+useradd -m -s /bin/bash Jhair        # Create a normal user named "Jhair"
+su - Jhair                           # Switch to the normal user session (no password needed from root)
+newgrp grupo_restringido             # Switch group as normal user (prompts for the group password)
+exit                                 # Close the "Jhair" session and return to the root shell
