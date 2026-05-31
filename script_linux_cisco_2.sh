@@ -76,3 +76,35 @@ apt-cache search nmap
 # Install a software package (requires root privileges)
 # Example: Install 'nmap'
 sudo apt-get install -y nmap
+
+# --- MODULE: REDIRECTION ---
+
+# Redirect standard output (stdout) to a file, overwriting its contents
+echo 'First line of text' > output.txt
+
+# Redirect standard output (stdout) to a file, appending to its contents
+echo 'Second line of text' >> output.txt
+
+# Redirect standard error (stderr) to a file
+# Example: List a non-existent file and save the error message
+ls non_existent_file 2> error_log.txt
+
+# Pipe standard output of one command as input to another command
+# Example: List files and filter the output for 'txt' files
+ls | grep 'txt'
+
+# --- MODULE: TEXT EDITORS ---
+
+# Open or create a file in the console-based text editor 'nano'
+# Note: Interactive command, usually exit with Ctrl+O (save) and Ctrl+X (exit)
+# nano output.txt
+
+# --- MODULE: BASIC SCRIPTING ---
+
+# Make a file executable
+# Example: chmod +x on a script file to allow execution
+# chmod +x script_linux_cisco_2.sh
+
+# Run a local script in the current directory
+# Example: ./script_name.sh
+# ./script_linux_cisco_2.sh
