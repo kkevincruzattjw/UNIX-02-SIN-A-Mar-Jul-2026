@@ -24,3 +24,16 @@ rm unwanted_file.txt
 # Example: Delete a directory named 'temp_folder' and everything inside it
 rm -r temp_folder
 
+# --- MODULE: FILTERING TEXT ---
+
+# Search for lines containing a specific keyword in a file
+# Example: Find the keyword 'root' in the '/etc/passwd' file
+grep 'root' /etc/passwd
+
+# --- MODULE: SHUTTING DOWN ---
+
+# Shut down the system immediately (requires root privileges)
+sudo shutdown -h now
+
+# Reboot the system immediately
+sudo shutdown -r now
