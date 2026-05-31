@@ -54,3 +54,25 @@ passwd
 # Change the password of a specific user (requires root privileges)
 # Example: Change the password for the user 'sysadmin'
 sudo passwd sysadmin
+
+# --- MODULE: NETWORK CONFIGURATION ---
+
+# View the status of active network interfaces
+ifconfig
+
+# Test connectivity to a remote host (sends 4 ping packets)
+# Example: Ping google.com
+ping -c 4 google.com
+
+# --- MODULE: PACKAGE MANAGEMENT ---
+
+# Update the local package index database list (Debian/Ubuntu)
+sudo apt-get update
+
+# Search for a package in the apt package database cache
+# Example: Search for the package 'nmap'
+apt-cache search nmap
+
+# Install a software package (requires root privileges)
+# Example: Install 'nmap'
+sudo apt-get install -y nmap
