@@ -37,3 +37,20 @@ sudo shutdown -h now
 
 # Reboot the system immediately
 sudo shutdown -r now
+
+# --- MODULE: PROCESSES ---
+
+# Display a list of current active processes for the active user session
+ps
+
+# Display a detailed list of all running processes on the system
+ps aux
+
+# --- MODULE: PASSWORD MANAGEMENT ---
+
+# Change the password of the current logged-in user
+passwd
+
+# Change the password of a specific user (requires root privileges)
+# Example: Change the password for the user 'sysadmin'
+sudo passwd sysadmin
