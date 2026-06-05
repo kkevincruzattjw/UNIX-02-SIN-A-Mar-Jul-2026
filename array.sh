@@ -7,3 +7,4 @@ echo "${IP_ADDRESSES[0]}"   # Prints only the first element (index 0) in the arr
 unset IP_ADDRESSES[1]   # Deletes the second element (index 1) from the array
 
 echo "${IP_ADDRESSES[*]}" # Prints the modified array to the screen
+
