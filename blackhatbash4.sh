@@ -1,3 +1,4 @@
+#!/bin/bash
 let result="4 * 5"       # Performs the math operation (4*5) and saves the result (20) into the 'result' variable.
 echo ${result}           # Prints the value stored in 'result' to the screen (displays 20).
 

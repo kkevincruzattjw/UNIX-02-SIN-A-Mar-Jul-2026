@@ -1,3 +1,4 @@
+#!/bin/bash
 book="black hat bash"            # Creates the variable 'book' and assigns the text "black hat bash" to it.
 echo "This book's name is ${book}" # Prints the text to the screen, displaying the value of the 'book' variable.
 
