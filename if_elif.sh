@@ -22,4 +22,4 @@ elif [[ -d "${USER_INPUT}" ]]; then
 else
     # If the argument does not exist in the system (neither a file nor a folder)
     echo "${USER_INPUT} is not a file or a directory."
-fii
+fi
