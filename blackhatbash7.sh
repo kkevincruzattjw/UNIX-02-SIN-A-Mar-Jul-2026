@@ -30,3 +30,29 @@ sed 's/Mozilla/Godzilla/g' log.txt
 grep "zilla" log.txt 
 sed 's/Modzilla/Godzilla/g' log.txt > newlog.txtç
 grep "zilla" newlog.txt
+
+sed 'id' newlog.txt
+
+sed -i 'id' newlog.txt
+
+git diff newlog.txt
+
+sed -i '$d' newlog.txt
+
+git diff newlog.txt
+
+sed 's/ //g' log.txt > newlog.txt
+
+grep " " newlog.txt
+
+sed '8,10d' newlog1.txt
+
+sed -n '10,15 p' newlog.txt
+
+sleep 100 &
+
+jobs
+
+fg %1
+
+bg %1
