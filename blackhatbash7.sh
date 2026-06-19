@@ -25,3 +25,8 @@ echo "hola3,chao3" >> example_csv.txt
 
 awk 'NR < 10' log.txt
 grep "42.236.10.117" log.txt | awk '{print $7}'
+
+sed 's/Mozilla/Godzilla/g' log.txt
+grep "zilla" log.txt 
+sed 's/Modzilla/Godzilla/g' log.txt > newlog.txtç
+grep "zilla" newlog.txt
