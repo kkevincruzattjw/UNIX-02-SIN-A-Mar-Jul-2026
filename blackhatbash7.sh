@@ -56,3 +56,6 @@ jobs
 fg %1
 
 bg %1
+
+nohup ./exercise_solution.sh hola nostarch.com &
+ps aux | grep "28013"
